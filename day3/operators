@@ -1,0 +1,39 @@
+a=int(input("enter a number:"))
+b=int(input("enter another number:"))
+print("Arthamatric opration")  
+sum=a+b 
+print("the sum of two numbers is:",sum)
+sub=a-b
+print("the subtraction of two numbers is:",sub)
+div=a/b
+print("the division of two numbers is:",div)
+rem=a%b
+print("the remainder of two numbers is:",rem) 
+floor =a//b
+print("the floor divistion of two numbers is:",rem) 
+power=a**b
+print("the a power b is is:",rem) 
+print("Relational opration")
+print("a==b:",a==b)  
+print("a<b:",a<b)
+print("a>b:",a>b)
+print("a<=b:",a<=b)
+print("a>=b:",a>=b)
+print("Asining opraters")
+x=int(input("Enter the x value:"))  
+print("x=",x)  
+print("x+=a:",x+=a)
+print("x-=a:",x-=a)
+print("x*=a:",a<=b)
+print("x/=a:",x/=a)
+print("logical opration")
+print("a is between 5 to 20",a>5 and a<20)
+print("a is grater then  5 or lessthen  20",a>5 or a<20)  
+print("a is not graterthen 50",not a>50)
+print("relational opration")
+c="apple"
+print('p' in c)
+print('d' in c)  
+  
+  
+
