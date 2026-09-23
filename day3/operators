@@ -21,11 +21,15 @@ print("a<=b:",a<=b)
 print("a>=b:",a>=b)
 print("Asining opraters")
 x=int(input("Enter the x value:"))  
-print("x=",x)  
-print("x+=a:",x+=a)
-print("x-=a:",x-=a)
-print("x*=a:",a<=b)
-print("x/=a:",x/=a)
+print("x=",x) 
+x+=a
+print("x+=a",x)
+x-=a
+print("x-=a:",x)
+x*=a
+print("x*=a:",x)
+x/=a
+print("x/=a:",x)
 print("logical opration")
 print("a is between 5 to 20",a>5 and a<20)
 print("a is grater then  5 or lessthen  20",a>5 or a<20)  
@@ -36,4 +40,3 @@ print('p' in c)
 print('d' in c)  
   
   
-
