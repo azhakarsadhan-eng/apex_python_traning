@@ -1,0 +1,4 @@
+a=("Azhakarsadhan")
+b=("Programing")
+print(f"welcome {a} in python {b} ")
+print("I love {}".format(b))
