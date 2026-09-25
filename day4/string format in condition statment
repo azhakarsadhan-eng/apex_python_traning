@@ -9,3 +9,9 @@ print('The sum of {0} and {1} is {2}'.format(num1,num2,sum))
 print('The subtraction of {0} and {1} is {2}'.format(num1,num2,min))
 print('The multiplication of {0} and {1} is {2}'.format(num1,num2,mul))
 print('The division of {0} and {1} is {2}'.format(num1,num2,div))
+print("string format in even number")
+num=int(input("Enter a number:"))
+if num%2==0:
+    print("{0}is Even number".format(num))
+else:
+    print("{0}is Odd number".format(num))
